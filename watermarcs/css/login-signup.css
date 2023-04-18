@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html, body{
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+body{
+    background: rgb(231,111,81);
+    background: radial-gradient(circle, rgba(231,111,81,1) 30%, rgba(244,162,97,1) 62%, rgba(233,196,106,1) 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+a:hover{
+    color: #264653;
+    transition: 0.2s;
+}
+
+/* Sign up */
+
+.signupDiv{
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 5px 0px;
+}
+
+.signupDiv > form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupDiv > h3{
+    margin: 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.signupDiv > hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 3px;
+}
+
+form > input{
+    width: 300px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 5px;
+}
+
+form > button{
+    background-color: #AB1A15;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+
+form > button:hover{
+    transition: 0.2s;
+    background-color: #881713;
+}
+
+/* Hibaüzenetek */
+
+#valasz{
+    margin-left: auto;
+    margin-right: auto;
+}

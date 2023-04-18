@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html, body{
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+body{
+    background: rgb(38,70,83);
+    background: linear-gradient(51deg, rgba(38,70,83,1) 0%, rgba(42,157,143,1) 20%, rgba(233,196,106,1) 47%, rgba(244,162,97,1) 74%, rgba(231,111,81,1) 98%) fixed;
+}
+
+.felbontas{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar stílusok */
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    margin-bottom: 1%;
+}
+
+#fejlecBrand{
+    background-color: rgb(42,157,143);
+    background-image: linear-gradient(223deg, rgba(42,157,143,1) 4%, rgba(233,196,106,1) 44%, rgba(244,162,97,1) 61%, rgba(231,111,81,1) 98%);
+    background-size: 100%;
+    background-clip: border-box;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.navbar-brand{
+    color: linear-gradient(220deg, rgba(38,70,83,1) 0%, rgba(42,157,143,1) 20%, rgba(233,196,106,1) 47%, rgba(244,162,97,1) 74%, rgba(231,111,81,1) 98%) !important;
+}
+
+.link{
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    text-align: center;
+    color: #fff;
+}
+
+#fejlecBrand{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1200px){
+    .befogo{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .befogo{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .befogo{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .befogo{
+        width: 100%;
+    }
+}
+
+/* Áttetsző */
+
+.bemutato, .kartyak, .lablec, .infok, .felso, .feltolt{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Üdvözlő */
+
+.bemutato{
+    color: white;
+    text-align: center;
+}
+
+.bemutato > h1{
+    margin-bottom: 15px;
+}
+
+.bemutato > hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+@media only screen and (min-width: 1200px){
+    .bemutato{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .bemutato{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .bemutato{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .bemutato{
+        width: 100%;
+    }
+}
+
+/* Kártyák */
+
+.kartyak{
+    color: white;
+}
+
+.kartya > h4{
+    font-weight: bolder;
+}
+
+.kartya > p{
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 1200px){
+    .kartyak{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .kartyak{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .kartyak{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .kartyak{
+        width: 100%;
+    }
+}
+
+/* Lábléc */
+
+.lablec{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 18px 0px;
+}
+
+.lablec > p{
+    margin: 0px;
+}
+
+.ikonok{
+    margin-bottom: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ikonok > a > img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+@media only screen and (min-width: 1200px){
+    .lablec{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .lablec{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .lablec{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .lablec{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .lablec > h3{
+        font-size: 20px;
+    }
+
+    .ikonok > a > img{
+        height: 25px;
+        width: 25px;
+    }
+
+    .lablec > p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .lablec > h3{
+        font-size: 25px;
+    }
+
+    .ikonok > a > img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .lablec > p{
+        font-size: 15px;
+    }
+}
+
+/* Infók */
+
+.infok{
+    color: white;
+}
+
+#kep{
+    width: 100px;
+}
+
+@media only screen and (min-width: 1200px){
+    .infok{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .infok{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .infok{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .infok{
+        width: 100%;
+    }
+}
+
+/* Kapcsolatok */
+
+.bal{
+    height: 100%;
+    width: 300px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.jobb{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.kartya_alt{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.kartya_alt > h4{
+    font-weight: bolder;
+}
+
+.kartya_alt > p{
+    font-size: 15px;
+}
+
+/* Felső rész */
+
+input#file{
+    display: none;
+}
+
+input#file + label{
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    font-size: 14px;
+    padding: 7px 13px;
+    transition: 0.2s;
+}
+
+input#file + label:hover{
+    background-color: rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#frissit{
+    margin-top: 15px;
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 13px;
+    transition: 0.2s;
+}
+
+#frissit:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+}
+
+.felso{
+    text-align: center;
+    color: white;
+}
+
+.felso > h1{
+    margin-bottom: 15px;
+}
+
+.felso > img{
+    margin-bottom: 10px;
+    width: 20%;
+    border-radius: 100%;
+    border: 7px solid rgba(0, 0, 0, 0.151);
+    /*border: 3px solid #AB1A15;*/
+}
+
+#gombTd{
+    text-align: center;
+}
+
+#mezokTd{
+    text-align: center;
+    padding-left: 15px;
+}
+
+#mezokTd > input{
+    width: 150px;
+}
+
+td{
+    vertical-align: middle;
+}
+
+td > p{
+    margin: 0%;
+}
+
+@media only screen and (min-width: 1200px){
+    .felso{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .felso{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .felso{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .felso{
+        width: 100%;
+    }
+}
+
+/* Feltöltés */
+
+.feltolt{
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.feltolt > h1{
+    text-align: center;
+}
+
+.feltolt > hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.feltolt > form > div{
+    margin: 5px;
+}
+
+#feltolt{
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#feltolt:hover{
+    background-color: rgba(0, 0, 0, 0.596);
+    transition: background-color 0.3s;
+}
+
+.sorok{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sorok > p{
+    margin: 0px 15px 0px 0px;
+}
+
+.sorok > input#kep{
+    display: none;
+}
+
+.sorok > input#kep + label{
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    font-size: 14px;
+    padding: 7px 15px;
+    transition: 0.2s;
+    margin-right: 5px;
+}
+
+.sorok > input#kep + label:hover{
+    background-color: rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#datum, #leiras, #cim{
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    width: 200px;
+}
+
+@media only screen and (min-width: 1200px){
+    .feltolt{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .feltolt{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .feltolt{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .feltolt{
+        width: 100%;
+    }
+}
+
+/* Kártyaképek */
+
+.kartyaKepek{
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    /*
+    columns: 4;
+    column-gap: 40px;*/
+}
+
+.cards{    
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px 20px 10px;
+    width: 230px;
+    height: 100%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.651);
+}
+
+#kartyaSzoveg{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.349);
+    overflow: hidden;
+    break-inside: avoid;
+}
+
+#kartyaSzoveg > p{
+    margin-bottom: 5px;
+}
+
+#cardPic{
+    text-align: center;
+}
+
+#cardPic > img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 1200px){
+    .kartyaKepek{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .kartyaKepek{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .kartyaKepek{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .kartyaKepek{
+        width: 100%;
+    }
+}
